@@ -1,3 +1,5 @@
+# Elevate
+
 ### Inspiration
 Our inspiration for this project came from our experiences at a low-income high school. We see how hard it is for students to handle college costs and financial aid. We wanted to create a tool to help students and their families understand these costs better. Additionally, we wanted to provide support for mental health and educational guidance through AI tutors.
 
