@@ -2,6 +2,7 @@
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import stock from '$lib/images/stock_image.webp';
 </script>
 
 <svelte:head>
@@ -16,16 +17,22 @@
 				<source srcset={welcome} type="image/webp" />
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
+			
 		</span>
 
-		to your new<br />SvelteKit app
+		to your one stop shop for<br />low income/FGLI students
+		<br />
+		<br />
+
+		<picture>
+			<source srcset={stock} type="image/webp" />
+			<img src={stock} alt="Welcome" />
+		</picture>
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
+	
 
-	<Counter />
+
 </section>
 
 <style>
